@@ -30,11 +30,40 @@ main {
 }
 
 section {
-  max-width: 40rem;
+  max-width: 35rem;
   /* width: 40rem; */
+  width: 100%;
+  /* height: 100%; */
   margin: 0 auto;
+  justify-content: center;
+  align-self: center;
   /* padding: 2rem; */
-  border: 2px solid red;
-  background-color: hsl(30, 38%, 92%);
+  /* border: 2px solid red; */
+  background-color: hsl(0, 0%, 100%);
   display: flex;
+}
+
+.product_image img {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.product_image {
+  width: 50%;
+  height: auto;
+  /* border: 12px solid yellow; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-details {
+  /* border: 12px solid yellow; */
+  width: 50%;
+  height: auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-content: center;
 }
