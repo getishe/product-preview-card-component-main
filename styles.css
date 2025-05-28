@@ -22,30 +22,54 @@ h2 {
 }
 
 main {
-  /* width: 100%; */
-  /* max-width: 1200px; */
-  /* margin: 0 auto; */
-  /* padding: 2rem; */
+  border: 2px solid yellowgreen;
   min-height: 100vh;
   display: flex;
-  align-items: center;
   justify-content: center;
-  border: 2px solid red;
-  border-radius: 10px;
+  align-items: center;
 }
 
 section {
+  background-color: white;
+  border-radius: 10px;
+  max-width: 35em;
   width: 100%;
-  max-width: 40rem;
-  /* margin: 0 auto; */
-  /* padding: 2rem; */
   display: flex;
-  /* flex-direction: column; */
-  align-items: center;
+  margin: 1rem;
+  margin: 0;
+  gap: 1rem;
+  border-radius: 1rem;
+}
+.product-image {
+  border-radius: 1rem;
+  overflow: hidden;
+}
+img {
   justify-content: center;
-  border: 2px solid blue;
+  align-items: center;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.product-details {
+  border: 2px solid yellow;
+  /* margin: 2rem; */
 }
 
-/* .product-image 
-  
+.product-details p.product-brand {
+  font-size: 0.8rem;
+  color: hsl(228, 12%, 48%);
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  margin: 1.5rem 0 1.5rem 0;
+  letter-spacing: 0.5rem;
+}
+
+/* @media (max-width: 640px) {
+  section {
+    flex-direction: column;
+    margin: 1rem;
+    max-width: 340px;
+  }
 } */
