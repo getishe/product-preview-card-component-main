@@ -142,3 +142,28 @@ button.add-to-cart:hover {
   background-color: hsl(158, 42%, 18%);
   font-weight: 500;
 }
+
+@media screen and (max-width: 480px) {
+  section {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    border: 2px solid red;
+  }
+
+  .product_image {
+    width: 100%;
+    height: 15rem;
+  }
+
+  .product_image img {
+    width: 100%;
+    height: 100%;
+    /* object-fit: none; */
+    /* height: 500px; */
+  }
+
+  .product-details {
+    width: 100%;
+  }
+}
