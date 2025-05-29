@@ -58,12 +58,22 @@ section {
   align-items: center;
 }
 .product-details {
-  /* border: 12px solid yellow; */
+  border: 1px solid yellow;
   width: 50%;
   height: auto;
-  padding: 1rem;
+  padding: 1.6rem;
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
   align-content: center;
+}
+
+h1.product-brand {
+  color: hsl(228, 12%, 48%);
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  margin-bottom: 1.2rem;
 }
