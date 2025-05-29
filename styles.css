@@ -152,7 +152,15 @@ button.add-to-cart:hover {
     flex-direction: column;
     width: 100%;
     height: auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
+  }
+
+  h1.product-name {
+    font-size: 2rem;
+    /* padding: 1rem; */
+    line-height: 1;
+    margin-bottom: 1.2rem;
+    /* border: 2px solid hsl(228, 12%, 48%); */
   }
 
   .product_image {
