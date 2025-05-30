@@ -137,7 +137,7 @@ button img {
 }
 button.add-to-cart:hover {
   background-color: hsl(158, 42%, 18%);
-  font-weight: 500;
+  /* font-weight: 500; */
 }
 
 @media screen and (max-width: 480px) {
